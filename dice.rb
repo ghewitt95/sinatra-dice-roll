@@ -47,7 +47,6 @@ get("/dice/1/20") do
 end
 
 get("/dice/5/4") do
-@@ -58,8 +55,7 @@
   fourth_die = rand(1..4)
   sum = first_die + second_die + third_die + fourth_die
 
